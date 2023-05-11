@@ -1,27 +1,18 @@
-# UserShowDetails
+## User Details
+- This is a sample feature where users can click on the "Show Details" CTA in the table to display the full user details.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+![Blue Company - Google Chrome 2023-05-11 at 6 39 42 PM](https://github.com/eKICH/Angular/assets/73248530/c24c818d-349c-4ebf-b185-363aec2234d9)
+![Blue Company - Google Chrome 2023-05-11 at 6 40 23 PM](https://github.com/eKICH/Angular/assets/73248530/4fe8d593-af61-41b6-a221-b683f089b07a)
 
-## Development server
+## Feature
+- This feature is written in Angular 15.2.9, Typescript, and CSS for styling
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Service - UsersService
+- UsersService contains users array object that is coming from the app and not a REST API
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Components
+- The project contains these components
+  - header component
+  - left-nav component
+  - user component - this is the table
+  - user-details component - this is the details right nav
