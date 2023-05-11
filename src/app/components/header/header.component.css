@@ -1,0 +1,11 @@
+header {
+    height: 60px;
+    background: #bdc3c7;
+}
+
+.header-p {
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
